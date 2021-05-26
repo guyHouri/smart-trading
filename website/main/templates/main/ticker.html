@@ -1,0 +1,57 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}"> 
+
+    <title>stock page</title>
+    <meta charset="utf-8">
+
+    <style>
+        body{
+        background-image:url('/static/images/webBackground.jpg');
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }   
+    </style>
+
+</head>
+<body>
+
+    <h1 style="color: white;  text-align: center;  font-size: 75px; margin-top: 100px; ">
+        {{ticker}}
+    </h1>
+    <h1 style="color: rgb(255, 255, 255); text-align: center">
+        price: {{stockPrice}}
+    </h1>
+
+    <a href={{trendsurl}} style="text-align: center; border-radius: 12px;">
+
+        <div style="margin: 0;
+        position: absolute;
+        top: 80%;
+        left: 20%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);">
+
+            <button style="background-color: #255127;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;">
+             go to google trends  </button>
+
+        </div>
+    </a>
+     
+    <img src={{pricepng}} id="center" alt="semel" width="475" height="350">
+
+    <div id="bottomleft">project by guy houri</div>
+</body>
+</html>

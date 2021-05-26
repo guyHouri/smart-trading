@@ -1,0 +1,33 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}"> 
+
+    <title>stock page</title>
+    <meta charset="utf-8">
+
+    <style>
+        body{
+        background-image:url('/static/images/webBackground.jpg');
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }   
+    </style>
+
+</head>
+
+<body>
+
+    <h1 style="color: white;  text-align: center;  font-size: 75px; margin-top: 50px; ">
+        today's reddit sentiment
+    </h1>
+
+    <img src={{5sentiment}} id="center" alt="semel" width="475" height="350">
+    <img src={{10talked}} id="center" alt="semel" width="475" height="350">
+
+
+    <h1 style="position:absolute; bottom: 0px;">project by guy houri</h1>
+
+</body>

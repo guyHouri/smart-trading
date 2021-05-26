@@ -1,0 +1,74 @@
+#ticker_div {
+    position: absolute;
+
+    width: 300px;
+    height: 300px;
+
+    /* Center form on page horizontally & vertically */
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+
+#parent {
+    display: table;
+    width: 100%;
+ }
+ #form_login {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+ }
+
+ #bottomleft {
+    font-family:Times New Roman;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 20px;
+    color: white;
+  }
+
+#center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+  #h1class {
+   display: block;
+   font-size: 2em;
+   font-weight: bold;
+   color: white;
+ }
+
+ #main h1 { 
+    color: white; 
+   }
+
+h1{
+   color: white; 
+
+}
+
+#myHeader {
+   background-color: lightblue;
+   color: black;
+   padding: 40px;
+   text-align: center;
+ }
+
+#button {
+   background-color: #4CAF50;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+ }
